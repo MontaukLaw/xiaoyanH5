@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>晓言智屏音箱</title>
+    <link href="./static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./static/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <style>
+      #panel {
+        margin-top: 20px;
+        color: lightgray;
+        font-size: 18px;
+        margin-bottom: 40px;
+        text-align: center;
+      }
+
+      .vcenter img {
+        width: 50px;
+      }
+
+      #panel img {
+        width: 80px;
+        height: 1px;
+        opacity: .2;
+      }
+
+      .touch-panel {
+        margin-left: 30px;
+        margin-right: 30px;
+      }
+
+      .touch-panel img {
+        width: 100%;
+      }
+
+      .control_content {
+        margin-bottom: 30px;
+      }
+
+      .control_content img {
+        /* height: 50px; */
+        width: 50px;
+      }
+
+      .control_img {
+        padding: 0 auto;
+      }
+
+      .vcenter {
+        display: inline-block;
+        vertical-align: middle;
+        float: none;
+        text-align: left;
+        font-size: 18px;
+      }
+    </style>
+    <link href="./static/css/my.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="app">
+      <div class="container-fluid">
+        <div class="row touch-panel">
+          <img src="./static/img/img_keys@2x.png">
+
+        </div>
+        <div class="row" id="panel">
+          <img src="./static/img/line.png">
+          音箱面板
+          <img src="./static/img/line.png">
+        </div>
+        <div class="row control_content">
+          <div class="col-xs-2"> </div>
+          <div class="col-xs-3 vcenter">
+            <img src="./static/img/icon_off_screen@2x.png"></div>
+          <div class="col-xs-6 vcenter"> 熄屏 <br>
+            单击熄屏</div>
+        </div>
+        <div class="row control_content">
+          <div class="col-xs-2"> </div>
+          <div class="col-xs-3 vcenter">
+            <img src="./static/img/icon_volume_lessen@2x.png">
+          </div>
+          <div class="col-xs-6 vcenter">
+            音量 -
+            <br>
+            长按快速减少音量
+          </div>
+        </div>
+        <div class="row control_content">
+          <div class="col-xs-2"> </div>
+          <div class="col-xs-3 vcenter">
+            <img src="./static/img/icon_volume_add@2x.png">
+          </div>
+          <div class="col-xs-6 vcenter">
+            音量 +
+            <br>
+            长按快速增加音量
+          </div>
+        </div>
+        <div class="row control_content">
+          <div class="col-xs-2"> </div>
+          <div class="col-xs-3 vcenter">
+            <img src="./static/img/icon_power_off@2x.png">
+          </div>
+          <div class="col-xs-6 vcenter">
+            关机
+            <br>
+            长按关机
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./static/js/jquery-3.1.1.min.js"></script>
+    <script src="./static/js/bootstrap.min.js"></script>
+  </body>
+</html>
